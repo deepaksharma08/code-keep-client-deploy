@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    color: rgb(131, 184, 230);
+    font-family: 'Poppins'
+}
+
+#parent-div {
+    height: 100vh;
+    background-color: rgba(190, 206, 226, 0.815);
+}
+
+.vertically-center {
+    display: flex;
+    align-items: center;
+}
+
+#child-div {
+    background-color: rgba(234, 255, 175, 0.507);
+    opacity: 90%;
+    width: 40%;
+    border-radius: 5%;
+    padding: 30px;
+    -webkit-box-shadow: -1px 2px 15px 0px rgba(0, 0, 0, 0.42);
+    -moz-box-shadow: -1px 2px 15px 0px rgba(0, 0, 0, 0.42);
+    box-shadow: -1px 2px 15px 0px rgba(0, 0, 0, 0.42);
+}
+
+@media screen and (max-width : 1200px) {
+    #child-div {
+        width: 90%;
+    }
+}
+
+strong {
+    cursor: pointer;
+    color: rgb(12, 112, 199);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.input-error {
+    color: red;
+}
